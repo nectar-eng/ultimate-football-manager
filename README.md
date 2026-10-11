@@ -1,16 +1,9 @@
-# Ultimate Football Manager
+# Ultimate Football Manager V2
 
-MVP browser game React + Vite untuk simulasi manajemen klub Premier League.
+React + Vite football management simulator.
 
-## Jalankan lokal
-- Node.js 20+
-- `npm install`
-- `npm run dev`
+Features: three local career slots, transfer market (buy/sell), match events and fitness, season rollover, youth academy promotion, optional Supabase email auth and cloud saves.
 
-## Deploy Vercel
-Build command: `npm run build` · Output: `dist`.
+Online saves require Supabase project setup: run `supabase/schema.sql`, then set `VITE_SUPABASE_URL` and `VITE_SUPABASE_ANON_KEY` in Vercel and redeploy.
 
-## Catatan
-- Save karier memakai localStorage pada browser/perangkat yang sama.
-- Data pemain dan hasil pertandingan adalah data demo/fiktif, bukan database resmi berlisensi.
-- Login cloud dan sinkronisasi antarperangkat belum aktif.
+Player identities and match results are fictional demo data, not an official licensed database.
